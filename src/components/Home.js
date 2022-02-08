@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { BodyDiv } from "../styledComps/HomeStyled";
+// import { Link } from "react-router-dom";
+import { BodyDiv, SpaceLink } from "../styledComps/HomeStyled";
 const Home = () => {
   return (
-    <>
-      <Link to="/nasapic">Take me to space!</Link>
-    </>
+    <BodyDiv>
+      <SpaceLink to="/nasapic">Take me to space!</SpaceLink>
+      {/* change above link el to a custom styled component */}
+    </BodyDiv>
   );
 };
 

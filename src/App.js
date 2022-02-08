@@ -1,7 +1,6 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import NasaPic from "./components/NasaPic";
-// import Nav from "./components/Nav";
 import "./App.css";
 function App() {
   return (
@@ -11,6 +10,7 @@ function App() {
           <Route component={Home} path="/" exact />
           <Route component={NasaPic} path="/nasapic" />
         </div>
+        {/* <Home /> */}
       </BrowserRouter>
     </div>
   );

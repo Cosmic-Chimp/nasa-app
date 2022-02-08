@@ -4,4 +4,13 @@
 
 body {
   background-color: black;
+  margin: none;
+  background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+p {
+  color: aliceblue;
 }
