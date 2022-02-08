@@ -2,18 +2,21 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavLink = styled(Link)`
-  color: #ffffff;
+  /* adjust padding and fontsize responsively */
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  padding: 0.5em;
+  padding: 0.7em;
   height: 100%;
-  cursor: pointer;
-  font-size: 1.3rem;
-  background: linear-gradient(90deg, #773876 2.98%, #8249a7 97.68%);
-  border: 1.5px solid #cb748f;
-  border-radius: 16px;
+  background: #ffffff;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  box-shadow: inset 5px 5px 20px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  margin: 1em;
 `;
 
 export const OuterDiv = styled.div`
