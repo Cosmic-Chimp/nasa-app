@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/nasa-app/static/css/main.2a3b96a4.css",
-    "main.js": "/nasa-app/static/js/main.698d7c23.js",
+    "main.css": "/nasa-app/static/css/main.a6ba64e5.css",
+    "main.js": "/nasa-app/static/js/main.74fd181c.js",
+    "static/media/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg": "/nasa-app/static/media/vincentiu-solomon-ln5drpv_ImI-unsplash.f420387ed47995695f25.jpg",
     "index.html": "/nasa-app/index.html",
-    "main.2a3b96a4.css.map": "/nasa-app/static/css/main.2a3b96a4.css.map",
-    "main.698d7c23.js.map": "/nasa-app/static/js/main.698d7c23.js.map"
+    "main.a6ba64e5.css.map": "/nasa-app/static/css/main.a6ba64e5.css.map",
+    "main.74fd181c.js.map": "/nasa-app/static/js/main.74fd181c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a3b96a4.css",
-    "static/js/main.698d7c23.js"
+    "static/css/main.a6ba64e5.css",
+    "static/js/main.74fd181c.js"
   ]
 }
