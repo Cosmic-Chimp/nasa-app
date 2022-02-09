@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+#Install Sass tomorrow and set it up
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

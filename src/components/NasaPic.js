@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import axios from "axios";
-import { OuterDiv } from "../styledComps/NavStyled";
-import { ImgDiv, InfoDiv } from "../styledComps/NasaPicStyled";
+// import { OuterDiv } from "../styledComps/NavStyled";
+// import { ImgDiv, InfoDiv } from "../styledComps/NasaPicStyled";
 ///break
 
 const api_key = process.env.REACT_APP_APOD_KEY;
@@ -38,8 +38,8 @@ const NasaPic = () => {
   if (!picData) return <div></div>;
   return (
     <>
-      <OuterDiv className="outerDiv">
-        <ImgDiv>
+      <div className="outerDiv">
+        <div>
           {picData.media_type === "image" ? (
             <img id="imgId" src={picData.url} alt={picData.title}></img>
           ) : (
@@ -53,15 +53,17 @@ const NasaPic = () => {
               className="photo"
             ></iframe>
           )}
-        </ImgDiv>
+        </div>
 
-        <InfoDiv>
+        <div>
           <h1>{picData.title}</h1>
           <h5>Today's date: {picData.date}</h5>
           <p>{picData.explanation}</p>
-        </InfoDiv>
-      </OuterDiv>
-      <Nav />
+        </div>
+      </div>
+      <div className="btns">
+        <Nav />
+      </div>
     </>
   );
 };

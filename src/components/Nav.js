@@ -1,11 +1,11 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import { NavLink, OuterDiv } from "../styledComps/NavStyled";
+import { Link } from "react-router-dom";
+// import { NavLink, OuterDiv } from "../styledComps/NavStyled";
 const Nav = () => {
   return (
-    <OuterDiv>
-      <NavLink to="/">Take me back to Earth</NavLink>
-    </OuterDiv>
+    <div>
+      <Link to="/">Take me back to Earth</Link>
+    </div>
   );
 };
 
