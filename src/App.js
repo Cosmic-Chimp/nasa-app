@@ -1,7 +1,7 @@
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import NasaPic from "./components/NasaPic";
-import "./App.css";
+import "./Sass/main.scss";
 function App() {
   return (
     <div className="App">

@@ -12,6 +12,7 @@ body {
   background-repeat: repeat;
   background-size: cover;
 }
+
 p,
 h1,
 h5 {
@@ -30,7 +31,7 @@ h5 {
   /* if on certain screen sizes change flex-direction */
   background-color: #000000;
   /* background-image: url("./abstracts//spaceBG.png"); */
-  background-image: url("./abstracts/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg");
+  background-image: url("../media/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
@@ -46,6 +47,7 @@ h5 {
   object-position: bottom;
   padding: 1em;
 }
+
 #SpaceLink {
   /* adjust padding and fontsize responsively */
   display: flex;
@@ -79,7 +81,7 @@ h5 {
   text-align: center;
   min-height: 100vh;
   /* background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
-  background-image: url("./abstracts/lukasz-lada-q7z-AUlHPaw-unsplash.jpg");
+  background-image: url("../media/lukasz-lada-q7z-AUlHPaw-unsplash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
