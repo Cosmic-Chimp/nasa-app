@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./Nav";
 import axios from "axios";
-// import { OuterDiv } from "../styledComps/NavStyled";
-// import { ImgDiv, InfoDiv } from "../styledComps/NasaPicStyled";
-///break
-
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 const api_key = process.env.REACT_APP_APOD_KEY;
 
 const NasaPic = () => {
@@ -38,30 +36,44 @@ const NasaPic = () => {
   if (!picData) return <div></div>;
   return (
     <>
-      <div className="outerDiv">
-        <div>
-          {picData.media_type === "image" ? (
-            <img id="imgId" src={picData.url} alt={picData.title}></img>
-          ) : (
-            <iframe
-              title="space-video"
-              src={picData.url}
-              frameBorder="media"
-              gesture="media"
-              allow="encrypted-media"
-              allowFullScreen
-              className="photo"
-            ></iframe>
-          )}
-        </div>
-
-        <div>
-          <h1>{picData.title}</h1>
-          <h5>Today's date: {picData.date}</h5>
-          <p>{picData.explanation}</p>
-        </div>
-      </div>
-      <div className="btns">
+      {/* <div className="Container"> */}
+      <Container>
+        <Row>
+          <Col className="d-flex flex-row">
+            {" "}
+            <div className="Picsrc">
+              {picData.media_type === "image" ? (
+                <img
+                  fluid
+                  id="imgId"
+                  src={picData.url}
+                  alt={picData.title}
+                ></img>
+              ) : (
+                <iframe
+                  id="imgId"
+                  title="space-video"
+                  src={picData.url}
+                  frameBorder="media"
+                  gesture="media"
+                  allow="encrypted-media"
+                  allowFullScreen
+                  className="photo"
+                ></iframe>
+              )}
+            </div>
+          </Col>
+          <Col>
+            <div className="PicInfo">
+              <h1>{picData.title}</h1>
+              <h5>Today's date is {picData.date}</h5>
+              <p className="info">{picData.explanation}</p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      {/* </div> */}
+      <div className="centered">
         <Nav />
       </div>
     </>

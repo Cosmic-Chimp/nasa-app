@@ -1,51 +1,22 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: black;
-  margin: 0px;
-  padding: 0px;
-  /* background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-}
-
-p,
-h1,
-h5 {
-  color: aliceblue;
-}
-
-.outerDiv {
-  /* display: Flex;
+.homeDiv {
+  display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: column; */
-  /* background-color: black; */
-  /* padding: 1em;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
   height: 100%;
-  width: 100vw; 
-  /* if on certain screen sizes change flex-direction */
-  background-color: #000000;
-  /* background-image: url("./abstracts//spaceBG.png"); */
-  background-image: url("../media/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg");
+  margin: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  /* background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
+  background-image: url("/media/lukasz-lada-q7z-AUlHPaw-unsplash.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  height: 80vh;
-  width: 100%;
-}
-
-#imgId {
-  width: 100%;
-  max-height: 50%;
-  object-fit: cover;
-  object-position: bottom;
-  padding: 1em;
 }
 
 #SpaceLink {
@@ -66,24 +37,82 @@ h5 {
   box-shadow: inset 0 0 10px #000000;
 }
 
-.homeDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: grey;
+#imgId {
   width: 100%;
-  height: 100%;
-  margin: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  /* background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
-  background-image: url("../media/lukasz-lada-q7z-AUlHPaw-unsplash.jpg");
+  height: auto;
+  object-fit: cover;
+  object-position: bottom;
+  padding: 1em;
+}
+
+.PicInfo {
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.container {
+  margin-top: 3em;
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+  background-image: url("../../media/paul-volkmer-qVotvbsuM_c-unsplash.jpg");
+}
+
+.centered {
+  display: flex;
+}
+
+.nav {
+  margin: auto;
+  padding: 2em 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../media/paul-volkmer-qVotvbsuM_c-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+p,
+h1,
+h5 {
+  color: aliceblue;
+  margin: 0px !important;
+  padding: 0.5em;
+}
+
+.info {
+  line-height: 2;
+  background-color: #0d1a26;
+  padding: 0.5em;
+}
+
+h5 {
+  color: #6cb4ee;
+  text-align: center;
+}
+
+h1 {
+  color: #1f51ff;
+  text-align: center;
 }

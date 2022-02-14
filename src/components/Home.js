@@ -8,9 +8,8 @@ const Home = () => {
         <Link id="SpaceLink" to="/nasapic">
           Take me to space!
         </Link>
-        {/* change above link el to a custom styled component */}
       </div>
-      <p>
+      <p className="shoutOut">
         Background-Photo by{" "}
         <a href="https://unsplash.com/@lukaszlada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
           Łukasz Łada

@@ -1,0 +1,42 @@
+@use "../Abstracts/colors";
+@use "../Abstracts/mixins";
+@use "../Abstracts/typography";
+
+.homeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  /* background-image: url("./abstracts/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
+  background-image: url("/media/lukasz-lada-q7z-AUlHPaw-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#SpaceLink {
+  /* adjust padding and fontsize responsively */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em;
+  height: 100%;
+  background: #ffffff;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  box-shadow: inset 5px 5px 20px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 48px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
