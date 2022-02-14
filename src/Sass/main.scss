@@ -24,22 +24,27 @@ body {
   background-size: cover;
 }
 p,
-h1,
-h5 {
+h1 {
   color: aliceblue;
   margin: 0px !important;
   padding: 0.5em;
 }
 .info {
   line-height: 2;
-  background-color: colors.$pbgclr;
-  padding: 0.5em;
+  background-color: colors.$pnew;
+  padding: 1em;
 }
 h5 {
   color: colors.$dateclr;
   text-align: center;
+  margin-bottom: 1em;
 }
 h1 {
-  color: colors.$h1clr;
+  // color: colors.$h1clr;
   text-align: center;
+  font-size: 2em;
+  background: -webkit-linear-gradient(45deg, colors.$h1clr, colors.$white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

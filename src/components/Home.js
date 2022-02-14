@@ -10,12 +10,20 @@ const Home = () => {
         </Link>
       </div>
       <p className="shoutOut">
-        Background-Photo by{" "}
-        <a href="https://unsplash.com/@lukaszlada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        Background Photo by{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://unsplash.com/@lukaszlada?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
           Łukasz Łada
         </a>{" "}
         on{" "}
-        <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+        >
           Unsplash
         </a>
       </p>
