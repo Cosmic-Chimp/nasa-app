@@ -40,7 +40,9 @@
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
 }
-
+#SpaceLink:hover {
+  transform: rotate (-45deg) !important;
+}
 .shoutOut {
   background-color: colors.$refclr;
   & a {

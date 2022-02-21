@@ -114,16 +114,14 @@ h1 {
 }
 
 h5 {
-  color: #0047cc;
+  color: #0082e6;
   text-align: center;
   margin-bottom: 1em;
+  background-color: rgba(0, 9, 26, 0.4);
 }
 
 h1 {
   text-align: center;
   font-size: 2em;
-  background: -webkit-linear-gradient(45deg, #1f4fff, white);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1f9eff;
 }
