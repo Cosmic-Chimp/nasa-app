@@ -28,9 +28,11 @@ h1 {
   color: aliceblue;
   margin: 0px !important;
   padding: 0.5em;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.08em;
 }
 .info {
-  line-height: 2;
+  line-height: -1;
   background-color: colors.$pnew;
   padding: 1em;
 }
@@ -39,12 +41,15 @@ h5 {
   text-align: center;
   margin-bottom: 1em;
   background-color: hsl(218, 100%, 5%, 0.4);
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.05em;
 }
 h1 {
   // color: colors.$h1clr;
   text-align: center;
   font-size: 2em;
   color: colors.$h1clr;
+
   // background: -webkit-linear-gradient(45deg, colors.$h1clr, colors.$white);
   // -webkit-background-clip: text;
   // background-clip: text;

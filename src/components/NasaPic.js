@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { motion } from "framer-motion";
 const api_key = process.env.REACT_APP_APOD_KEY;
 
 const NasaPic = () => {
@@ -35,8 +36,11 @@ const NasaPic = () => {
 
   if (!picData) return <div></div>;
   return (
-    <>
-      {/* <div className="Container"> */}
+    <motion.div>
+      <div className="centered">
+        <Nav />
+      </div>
+      {/* add animations to this div [above] for PAGE-transitions */}
       <Container>
         <Row>
           <Col className="d-flex flex-row">
@@ -72,11 +76,11 @@ const NasaPic = () => {
           </Col>
         </Row>
       </Container>
-      {/* </div> */}
-      <div className="centered">
-        <Nav />
-      </div>
-    </>
+      {/* <div className="centered">
+          <Nav />
+        </div> */}
+      <br></br>
+    </motion.div>
   );
 };
 
