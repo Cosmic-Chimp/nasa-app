@@ -16,6 +16,7 @@ I watched a youtube video by [Kapehe](https://www.youtube.com/channel/UCWv30Kwbt
 - framer-motion
 - react-router-dom
 - sass
+- react-helmet
 
 ## Pages
 
@@ -31,3 +32,7 @@ I watched a youtube video by [Kapehe](https://www.youtube.com/channel/UCWv30Kwbt
   <h3>The image will change every day because I am using nasa's APOD api</h3>
   <img src="./src/media/UAPpage2.png">
 </p>
+
+## Launch
+
+Click on this link to see the site: https://tic-tac-uap.netlify.app/
