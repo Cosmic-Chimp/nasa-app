@@ -20,16 +20,16 @@ I watched a youtube video by [Kapehe](https://www.youtube.com/channel/UCWv30Kwbt
 
 ## Pages
 
-#### Home
+### Home
 
 <p>
   <img src="./src/media/UAPpage1.png">
 </p>
 
-#### Info Page
+### Info Page
 
 <p>
-  <h3>The image will change every day because I am using nasa's APOD api</h3>
+  <h5>The image will change every day because I am using nasa's APOD api</h3>
   <img src="./src/media/UAPpage2.png">
 </p>
 
